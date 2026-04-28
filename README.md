@@ -1,6 +1,9 @@
 # AI-Powered CV Screening & Job Matching
 
-This project is an AI-powered CV screening and job matching system that evaluates candidate resumes against job descriptions using semantic similarity and HR-based analysis.
+This project demonstrates how AI can automate CV screening by combining semantic similarity and LLM-based HR evaluation.
+
+## Live Demo
+[Click to try the app](https://ai-cv-screening-system.streamlit.app)
 
 ## Key Features
 - CV and job description matching using AI
@@ -29,6 +32,12 @@ This project is an AI-powered CV screening and job matching system that evaluate
 - NumPy
 - PyPDF
 - ReportLab
+
+## AI Approach
+- OpenAI embeddings are used to convert CV and job descriptions into vectors
+- Cosine similarity is used to calculate match score
+- LLM is used for HR-style evaluation and decision making
+
 
 ## How It Works
 1. Upload a candidate CV (PDF)
@@ -76,8 +85,11 @@ PDF Report Generation
 ```
 
 ## How to Run
-pip install -r requirements.txt  
+
+```bash
+pip install -r requirements.txt
 streamlit run app.py
+```
 
 ## Project Purpose
 This project demonstrates how artificial intelligence can support human resources processes by automating candidate screening and improving recruitment efficiency. It aims to reduce manual effort and provide data-driven insights for better hiring decisions.
