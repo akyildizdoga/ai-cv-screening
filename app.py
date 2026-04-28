@@ -1,3 +1,8 @@
+# AI-Powered CV Screening & Job Matching
+# This Streamlit application analyzes candidate CVs against job descriptions.
+# It uses OpenAI embeddings for semantic similarity scoring and AI-based HR evaluation.
+# The system provides skill extraction, match scoring, recruiter insights, and downloadable PDF reports.
+
 import os
 import json
 import numpy as np
