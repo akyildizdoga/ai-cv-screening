@@ -21,6 +21,9 @@ st.set_page_config(
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 st.title("AI-Powered CV Screening & Job Matching")
+
+st.markdown("[🔗 GitHub Repository](https://github.com/akyildizdoga/ai-cv-screening)")
+
 st.write(
     "This app analyzes a candidate CV against a job description using OpenAI embeddings "
     "and provides HR-focused recruitment insights."
