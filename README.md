@@ -29,6 +29,40 @@ This project is an AI-powered CV screening and job matching system that evaluate
    - HR evaluation
    - Recruiter decision
 5. Option to download a detailed PDF report
+## System Architecture
+
+This diagram represents the end-to-end flow of the AI-powered CV screening system.
+
+```
+User
+|
+▼
+Upload CV (PDF) + Job Description
+|
+▼
+PDF Text Extraction (PyPDF)
+|
+▼
+Skill Extraction (NLP)
+|
+▼
+OpenAI Embeddings (CV & Job Description)
+|
+▼
+Cosine Similarity Calculation
+|
+▼
+Match Score Generation
+|
+▼
+AI-Based HR Evaluation (LLM)
+|
+▼
+Results Display (Streamlit UI)
+|
+▼
+PDF Report Generation
+```
 
 ## How to Run
 pip install -r requirements.txt  
