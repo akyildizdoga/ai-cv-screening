@@ -11,6 +11,17 @@ This project is an AI-powered CV screening and job matching system that evaluate
 - Recruiter-style decision support
 - Downloadable PDF report
 
+## Demo
+
+### Input & Matching
+![Demo1](screenshot1.png)
+
+### HR Evaluation
+![Demo2](screenshot2.png)
+
+### Final Decision
+![Demo3](screenshot3.png)
+
 ## Tech Stack
 - Python
 - Streamlit
